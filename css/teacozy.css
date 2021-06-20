@@ -1,0 +1,103 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+.navbar {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  background-color: black;
+}
+
+header img {
+  margin-left: 10px;
+  height: 55px;
+  float: left;
+}
+
+header ul {
+  float: right;
+}
+
+header li {
+  display: inline;
+  padding: 10px;
+}
+
+.content {
+  margin-top: 70px;
+}
+
+#Mission {
+  background-image: url("../images/img-mission-background.webp");
+  background-repeat: no;
+  background-position: center;
+  height: 700px;
+  max-width: 1200px;
+  background-color: black;
+  display: flex;
+  margin: 40px auto 40px auto;
+}
+
+.mission-text {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  vertical-align: middle;
+}
+
+#Featured {
+}
+
+#Featured figure {
+  display: inline-block;
+}
+
+#Featured figure img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+#Featured figure figcaption {
+  text-align: center;
+}
+
+#Locations {
+  background-image: url("../images/img-locations-background.webp");
+  background-repeat: no;
+  background-position: center;
+  background-color: black;
+  height: 500px;
+  max-width: 1200px;
+  margin: 40px auto 40px auto;
+  display: flex;
+}
+
+.location-container {
+  text-align: center;
+  margin: auto;
+}
+
+.location {
+  display: inline-block;
+  width: 300px;
+  margin: auto 20px auto 20px;
+  background-color: black;
+}
+
+footer {
+  text-align: left;
+}
